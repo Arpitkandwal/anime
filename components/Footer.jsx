@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { GrInstagram, GrTwitter } from 'react-icons/gr';
 
 const Footer = () => {
   return (
-    <div>
-      
+    <div className='footer-container'>
+      <p>2023 AnimeMerch All rights reserved</p>
+      <p className="icons">
+        <GrInstagram />
+        <GrTwitter />
+      </p>
     </div>
   )
 }
