@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { client } from '../lib/client';
 import { Product, FooterBanner, HeroBanner} from '../components';
