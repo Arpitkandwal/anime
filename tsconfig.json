@@ -17,6 +17,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_app.js", "pages/_document.js", "pages/index.js", "pages/api/hello.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_app.js", "pages/_document.js", "pages/index.js", "pages/api/hello.js", "anime-merch/sanity.cli.js", "anime-merch/sanity.config.js"],
   "exclude": ["node_modules"]
 }
