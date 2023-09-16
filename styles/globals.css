@@ -260,14 +260,13 @@ text-align: end;
 }
 .footer-banner-image {
   position: absolute;
-  background-color: red;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   /* background-size: cover;
   background-position: center; */
-  width: 500px;
-  height: 300px;
+  width: 800px;
+  height: 600px;
   z-index: 1;
 }
 
@@ -641,8 +640,8 @@ margin-top: 160px;
 @media screen and (max-width:800px) {
   .hero-banner-image{
     width: 77%;
+    margin-top: 50%;
     height: 62%;
-    top: -2%;
     right: -6%;
   }
   .footer-banner-container{
@@ -652,7 +651,8 @@ margin-top: 160px;
   .footer-banner-image{
     width: 77%;
     left: 30%;
-    top: 6%;
+    margin-top: 2%;
+    margin-left: 200px;
     height: 56%
   }
   .banner-desc .left h3{
