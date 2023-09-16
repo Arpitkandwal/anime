@@ -638,6 +638,20 @@ margin-top: 160px;
 }
 
 @media screen and (max-width:800px) {
+  .products-heading{
+    margin-left: 90px;
+  }
+  .product-card{
+    margin-left: 100px;
+    cursor: pointer;
+     transform: scale(1, 1);
+     transition: transform 0.5s ease;
+    color: #324d67;
+   
+   }
+  .hero-banner-container{
+    margin-left: 60px;
+  }
   .hero-banner-image{
     width: 77%;
     margin-top: 50%;
@@ -645,6 +659,7 @@ margin-top: 160px;
     right: -6%;
   }
   .footer-banner-container{
+    margin-left: 50px;
     height: 560px;
     margin-top: 80px;
   }
@@ -701,7 +716,7 @@ margin-top: 160px;
     height: 350px;
   }
   .cart-container{
-    width: 415px;
+    width: 400px;
   padding: 4px;
   }
   .cart-heading{
